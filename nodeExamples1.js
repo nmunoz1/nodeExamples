@@ -1,9 +1,11 @@
 function pyramid(x){
-    var i = 0
+    var i = 1
     while (i <=x){
-        print ("#" * i);
+        var num = "#"
+        var repeat = num.repeat(i)
+        console.log(repeat);
         i++;
     }
 }
 
-pyramid (4)
+pyramid (10)
